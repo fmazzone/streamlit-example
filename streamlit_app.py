@@ -7,7 +7,7 @@ st.set_page_config(layout="centered", initial_sidebar_state="expanded")
 st.title('_:blue[Weather Forecast]_')
 st.image('https://www.analyticssteps.com/backend/media/thumbnail/6006173/6278986_1571298721_Weather_Forecoast_Graphics.jpg')
 
-def nearest_business_day(DATE: datetime.date):
+def nearest_day(DATE):
     """
     Takes a date and transform it to the nearest business day
     """
@@ -23,18 +23,16 @@ window_selection_c = st.sidebar.container() # create an empty container in the s
 window_selection_c.markdown("## Insights") # add a title to the sidebar container
 sub_columns = window_selection_c.columns(2) #Split the container into two columns for start and end date
 
-
 # ----------Time window selection-----------------
 YESTERDAY=datetime.date.today()-datetime.timedelta(days=1)
 YESTERDAY = nearest_business_day(YESTERDAY) #Round to business day
 
 DEFAULT_START=YESTERDAY - datetime.timedelta(days=700)
-DEFAULT_START = nearest_business_day(DEFAULT_START)
+DEFAULT_START = nearest_day(DEFAULT_START)
 
 START = sub_columns[0].date_input("From", value=DEFAULT_START, max_value=YESTERDAY - datetime.timedelta(days=1))
-END = sub_columns[1].date_input("To", value=YESTERDAY, max_value=YESTERDAY, min_value=START)
 
-START = nearest_business_day(START)
-END = nearest_business_day(END)
+START = nearest_day(START)
+
 
 
