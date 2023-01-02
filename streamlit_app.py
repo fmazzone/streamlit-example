@@ -82,7 +82,7 @@ with col7:
      st.metric("Umidità", "-")
 
 if st.button('_Predici_'):
-    with st.spinner('Wait for it...'):
+    with st.spinner('Attendere...'):
       time.sleep(5)
-    st.success('Done!')
+    st.success('Fatto!')
  
