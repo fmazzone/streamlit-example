@@ -12,7 +12,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://www.shutterstock.com/image-photo/collage-different-weather-conditions-260nw-1995443507.jpg");
+             background-image: url("https://m.media-amazon.com/images/I/516niZEvYHL._AC_SY1000_.jpg");
              background-attachment: fixed;
              background-size: cover
          }}
