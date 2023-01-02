@@ -102,6 +102,7 @@ st.markdown("""
 <style>
 div.stButton > button:first-child {
     background-color: rgb(234,230,202);
+    text-color:rgb(10,230,202);
 }
 </style>""", unsafe_allow_html=True)    
     
