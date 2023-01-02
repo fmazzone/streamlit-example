@@ -4,7 +4,7 @@ import numpy as np
 import datetime 
 
 
-st.set_page_config(layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Weather Forecast App",layout="wide", initial_sidebar_state="expanded")
 st.title('_:blue[Weather Forecast]_')
 
 
