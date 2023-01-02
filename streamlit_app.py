@@ -5,7 +5,7 @@ import datetime
 import time 
 
 st.set_page_config(page_title="Weather Forecast App",page_icon="🌡️",layout="wide", initial_sidebar_state="expanded")
-st.title(':blue[_Weather Forecast_]')
+st.title('_Weather Forecast_')
 
 def add_bg_from_url():
     st.markdown(
@@ -101,7 +101,7 @@ with col7:
 st.markdown("""
 <style>
 div.stButton > button:first-child {
-    background-color: rgb(172, 218, 230);
+    background-color: rgb(234,230,202);
 }
 </style>""", unsafe_allow_html=True)    
     
