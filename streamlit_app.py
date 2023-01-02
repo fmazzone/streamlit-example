@@ -1,12 +1,3 @@
-!pip install wwo-hist
-!pip install WorldWeatherPy
-!pip install xlrd
-
-from wwo_hist import retrieve_hist_data
-from WorldWeatherPy import DetermineListOfAttributes
-from WorldWeatherPy import HistoricalLocationWeather
-from WorldWeatherPy import RetrieveByAttribute
-
 import streamlit as st
 import pandas as pd
 import numpy as np
