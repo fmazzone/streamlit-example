@@ -98,13 +98,38 @@ with col7:
      st.metric("Vento", "-")
      st.metric("Umidità", "-")
 
-st.markdown("""
-<style>
+#st.markdown("""
+#<style>
+#div.stButton > button:first-child {
+#    background-color: rgb(234,230,202);
+#    text-color:rgb(10,230,202);
+#}
+#</style>""", unsafe_allow_html=True)    
+ 
+st.markdown(""" 
 div.stButton > button:first-child {
-    background-color: rgb(234,230,202);
-    text-color:rgb(10,230,202);
+background-color: #00cc00;color:white;font-size:20px;height:3em;width:30em;border-radius:10px 10px 10px 10px;
 }
-</style>""", unsafe_allow_html=True)    
+.css-2trqyj:focus:not(:active) {
+border-color: #ffffff;
+box-shadow: none;
+color: #ffffff;
+background-color: #0066cc;
+}
+.css-2trqyj:focus:(:active) {
+border-color: #ffffff;
+box-shadow: none;
+color: #ffffff;
+background-color: #0066cc;
+}
+.css-2trqyj:focus:active){
+background-color: #0066cc;
+border-color: #ffffff;
+box-shadow: none;
+color: #ffffff;
+background-color: #0066cc;
+}
+""", unsafe_allow_html=True)    
     
 if st.button('_Predici_'):
     with st.spinner('Attendere...'):
