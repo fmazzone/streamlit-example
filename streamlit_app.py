@@ -12,7 +12,8 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://openweathermap.org/themes/openweathermap/assets/img/new-history-forecast-bulk.png");
+             background-image: url("https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg?w=2000");
+             #https://openweathermap.org/themes/openweathermap/assets/img/new-history-forecast-bulk.png
              background-attachment: fixed;
              background-size: cover
          }}
@@ -89,8 +90,7 @@ with col6:
      st.metric("Umidità", "-") 
     
 with col7:
-   new_title = '<p style="font-family:sans-serif; color:Blue; font-size: 20px;"'
-   st.markdown(new_title, unsafe_allow_html=True)
+   st.subheader(":blue[_PALERMO_]")
    st.image("https://www.filoteapasta.com/wp-content/uploads/2019/07/Cattedrale-Palermo.jpg")
    st.metric("Condizione", "stringa")
    with st.expander("Dati real time"):
