@@ -67,6 +67,6 @@ with col7:
    st.metric("Wind", "9 mph", "-8%")
    st.metric("Humidity", "86%", "4%")
 
-st.button('Predici'):
-    st.write('Loading... ')
+st.button('Predici')
+st.write('Loading... ')
  
