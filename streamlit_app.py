@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import datetime 
-import 
+
 
 st.set_page_config(layout="centered", initial_sidebar_state="expanded")
 st.title('_:blue[Weather Forecast]_')
