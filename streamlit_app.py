@@ -9,14 +9,13 @@ st.set_page_config(layout="centered")
 st.title(" 📅 WEATHER FORECASTER 🌥️ ☔ ")
 
 DATE_COLUMN = 'date/time'
-DATA_URL = ('https://drive.google.com/file/d/1-o3EvAMgSwzeB7p0EmIwmZM62Qh3akAn/view?usp=sharing')
 
 @st.cache
 def load_data(nrows):
-    data = pd.read_csv(DATA_URL, nrows=nrows)
+    data = pd.read_csv('https://drive.google.com/file/d/1-o3EvAMgSwzeB7p0EmIwmZM62Qh3akAn/view?usp=sharing', nrows=nrows)
     lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis='columns', inplace=True)
-    data[DATE_COLUMN] = pd.to_datetime(data[DATE_COLUMN])
+    data[date] = pd.to_datetime(data[date])
     return data
 
 data_load_state = st.text('Loading data...')
