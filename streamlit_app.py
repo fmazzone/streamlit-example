@@ -12,7 +12,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://m.media-amazon.com/images/I/516niZEvYHL._AC_SY1000_.jpg");
+             background-image: url("https://openweathermap.org/themes/openweathermap/assets/img/new-history-forecast-bulk.png");
              background-attachment: fixed;
              background-size: cover
          }}
