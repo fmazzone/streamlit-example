@@ -12,7 +12,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://superdevresources.com/wp-content/uploads/2020/11/Free-Download-Weather-Icons.jpg");
+             background-image: url("https://www.shutterstock.com/image-photo/collage-different-weather-conditions-260nw-1995443507.jpg");
              background-attachment: fixed;
              background-size: cover
          }}
