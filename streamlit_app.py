@@ -35,7 +35,7 @@ add_bg_from_url()
 col1, col2, col3,col4,col5,col6,col7,col8, = st.columns(8)
 
 with col1:
-   st.text("_MILANO_")
+   st.subheader(":red[_MILANO_]")
    st.image("https://media.istockphoto.com/id/494084426/photo/milano-spirit.jpg?s=612x612&w=0&k=20&c=oRg0sCqikaBWGXSIgnvNVVu2cpHty9MF0spdieqpYoM=")
    st.metric("Condizione", "stringa")
    with st.expander("Dati real time"):
