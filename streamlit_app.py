@@ -7,6 +7,22 @@ import time
 st.set_page_config(page_title="Weather Forecast App",page_icon="🌡️",layout="wide", initial_sidebar_state="expanded")
 st.title('_Weather Forecast_')
 
+def add_bg_from_url():
+    st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("https://img.freepik.com/free-vector/coloured-weather-icons-collection_1126-30.jpg?w=2000");
+             background-attachment: fixed;
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
+
+add_bg_from_url() 
+
 
   # ------ layout setting---------------------------
 #window_selection_c = st.sidebar.container() # create an empty container in the sidebar
