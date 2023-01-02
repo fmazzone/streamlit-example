@@ -1,6 +1,6 @@
 # Required Libraries
 import streamlit as st
-from matplotlib import dates
+import matplotlib
 from datetime import datetime
 from API import owm
 from pyowm.commons.exceptions import NotFoundError
