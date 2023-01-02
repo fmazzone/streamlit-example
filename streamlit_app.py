@@ -17,5 +17,5 @@ YESTERDAY=datetime.date.today()-datetime.timedelta(days=1)
 label="Giorno per la predizione"
 sub_columns[0].date_input(label,datetime.date(2018, 1, 1))
 labelq="Città"
-sub_columns[1].text_input('')
+sub_columns[1].text_input(label1)
 
