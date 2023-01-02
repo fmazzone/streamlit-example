@@ -12,7 +12,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://img.freepik.com/free-vector/coloured-weather-icons-collection_1126-30.jpg?w=2000");
+             background-image: url("https://metro.co.uk/wp-content/uploads/2018/02/ios_weather_icons-e1519660727179.png");
              background-attachment: fixed;
              background-size: cover
          }}
