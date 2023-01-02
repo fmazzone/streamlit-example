@@ -16,7 +16,7 @@ st.title(':blue[☁️☀️ _Weather Forecast_ ☀️☁️]')
 #sub_columns[0].date_input("Data per la predizione",datetime.date(2018, 1, 1))
 #sub_columns[0].text_input("Città per la predizione")
 
-col1, col2, col3,col4,col5,col6,col7,col8, = st.tabs(8)
+col1, col2, col3,col4,col5,col6,col7,col8, = st.columns(8)
 
 with col1:
    st.caption("MILANO")
@@ -69,4 +69,7 @@ with col7:
 
 st.button('Predici')
 st.write('Loading... ')
+with st.spinner('Wait for it...'):
+    time.sleep(5)
+st.success('Done!')
  
