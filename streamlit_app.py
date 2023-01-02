@@ -12,7 +12,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://cdn.wallpaperdirect.com/asset/img/product/170544/tiled/galerie-plain-beige-wallpaper-tiled-170544.jpg");
+             background-image: url("https://media.istockphoto.com/id/1303006674/vector/sunlight-spiral-background-faded-blue-and-beige-color-burst-background.jpg?s=170667a&w=0&k=20&c=pvstR1qfkWCqFILDB9-qHQb3QFlYXFPR_KJw7gDiNlI=");
              #https://openweathermap.org/themes/openweathermap/assets/img/new-history-forecast-bulk.png
              background-attachment: fixed;
              background-size: cover
