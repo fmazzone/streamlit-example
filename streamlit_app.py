@@ -23,4 +23,4 @@ data_load_state.text("Done! (using st.cache)")
 
 if st.checkbox('Show raw data'):
     st.subheader('Raw data')
-    st.dataframe(data)
+    st.table(data)
