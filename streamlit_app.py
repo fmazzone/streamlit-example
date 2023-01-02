@@ -19,6 +19,7 @@ def load_data(nrows):
     return data
 
 data_load_state = st.text('Loading data...')
+data = load_data(5)
 data_load_state.text("Done! (using st.cache)")
 
 if st.checkbox('Show raw data'):
