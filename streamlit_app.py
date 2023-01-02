@@ -19,6 +19,10 @@ col1, col2, col3,col4,col5,col6,col7,col8, = st.columns(8)
 with col1:
    st.caption("MILANO")
    st.image("https://media.istockphoto.com/id/494084426/photo/milano-spirit.jpg?s=612x612&w=0&k=20&c=oRg0sCqikaBWGXSIgnvNVVu2cpHty9MF0spdieqpYoM=")
+   st.metric("Temperature", "70 °F", "1.2 °F")
+   st.metric("Wind", "9 mph", "-8%")
+   st.metric("Humidity", "86%", "4%")
+    
 with col2:
    st.caption("TORINO")
    st.image("https://media.istockphoto.com/id/940619078/photo/view-of-turin-city-centre-turin-italy.jpg?s=612x612&w=0&k=20&c=3vs4AeYD5yAQuig7P6lD02wsRBaKAQPXi_wGVdQQxro=")
