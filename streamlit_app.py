@@ -67,9 +67,8 @@ with col7:
    st.metric("Wind", "9 mph", "-8%")
    st.metric("Humidity", "86%", "4%")
 
-st.button('Predici')
-st.write('Loading... ')
-with st.spinner('Wait for it...'):
-    time.sleep(5)
-st.success('Done!')
+if st.button('Predici'):
+    with st.spinner('Wait for it...'):
+      time.sleep(5)
+    st.success('Done!')
  
