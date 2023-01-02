@@ -15,7 +15,7 @@ sub_columns = window_selection_c.columns(2) #Split the container into two column
 # ----------Time window selection-----------------
 label="Giorno per la predizione"
 
-col1, col2, col3,col4,col5,col6,col7,col8, = st.columns(8)
+col1, col2, col3,col4,col5,col6,col7,col8, = st.columns(8, gap="big")
 
 #milan','turin','florence','bologna','rome','naples','palermo
 
