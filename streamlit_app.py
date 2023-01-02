@@ -16,5 +16,5 @@ sub_columns = window_selection_c.columns(2) #Split the container into two column
 # ----------Time window selection-----------------
 YESTERDAY=datetime.date.today()-datetime.timedelta(days=1)
 label="Giorno per la predizione"
-st.date_input(label,datetime.date(2019, 7, 6))
+sub_columns[0].date_input(label,datetime.date(2019, 7, 6))
 
