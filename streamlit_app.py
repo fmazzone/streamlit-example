@@ -40,7 +40,7 @@ with col5:
 
 with col6:
    st.caption("NAPOLI")
-   st.image("https://tourismmedia.italia.it/is/image/mitur/1600X1000_itinerario_diecimila_passi_napoli_hero?qlt=82&ts=1665991935953&dpr=off")
+   st.image("https://media.istockphoto.com/id/1327485657/photo/naples-at-sunset-gulf-of-naples-italy.jpg?b=1&s=170667a&w=0&k=20&c=Bji5m-48zMeGQ8mwo4a9wof3rQnSJzaIYpU5OlnGVIs=")
   
 with col7:
    st.caption("PALERMO")
