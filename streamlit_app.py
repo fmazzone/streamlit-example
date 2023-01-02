@@ -8,12 +8,8 @@ import numpy as np
 st.set_page_config(layout="centered")
 st.title(" 📅 WEATHER FORECASTER 🌥️ ☔ ")
 
-
-st.title('Uber pickups in NYC')
-
 DATE_COLUMN = 'date/time'
-DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
-            'streamlit-demo-data/uber-raw-data-sep14.csv.gz')
+DATA_URL = ('https://drive.google.com/file/d/1-o3EvAMgSwzeB7p0EmIwmZM62Qh3akAn/view?usp=sharing')
 
 @st.cache
 def load_data(nrows):
