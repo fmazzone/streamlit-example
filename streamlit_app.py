@@ -12,12 +12,10 @@ st.image('https://www.analyticssteps.com/backend/media/thumbnail/6006173/6278986
 window_selection_c = st.sidebar.container() # create an empty container in the sidebar
 window_selection_c.markdown("## _Dati_") # add a title to the sidebar container
 sub_columns = window_selection_c.columns(2) #Split the container into two columns 
-# ----------Time window selection-----------------
-label="Giorno per la predizione"
 
-col1, col2, col3,col4,col5,col6,col7,col8, = st.columns(8, gap='big')
+sub_columns[0].date_input("Data per la predizione",datetime.date(2018, 1, 1))
 
-#milan','turin','florence','bologna','rome','naples','palermo
+col1, col2, col3,col4,col5,col6,col7,col8, = st.columns(8)
 
 with col1:
    st.caption("MILANO")
