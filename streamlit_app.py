@@ -107,6 +107,7 @@ with col7:
 #</style>""", unsafe_allow_html=True)    
  
 st.markdown(""" 
+<style>
 div.stButton > button:first-child {
 background-color: #00cc00;color:white;font-size:20px;height:3em;width:30em;border-radius:10px 10px 10px 10px;
 }
@@ -129,7 +130,7 @@ box-shadow: none;
 color: #ffffff;
 background-color: #0066cc;
 }
-""", unsafe_allow_html=True)    
+</style>""", unsafe_allow_html=True)    
     
 if st.button('_Predici_'):
     with st.spinner('Attendere...'):
