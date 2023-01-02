@@ -5,7 +5,7 @@ import datetime
 
 
 st.set_page_config(page_title="Weather Forecast App",page_icon="🌡️",layout="wide", initial_sidebar_state="expanded")
-st.title('_:blue[☁️☀️ Weather Forecast ☀️☁️]_')
+st.title(':blue[☁️☀️ _Weather Forecast_ ☀️☁️]')
 
 
   # ------ layout setting---------------------------
