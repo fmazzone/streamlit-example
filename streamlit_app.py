@@ -12,7 +12,7 @@ DATE_COLUMN = 'date/time'
 
 @st.cache
 def load_data():
-    data = pd.read_csv('https://drive.google.com/file/d/1-o3EvAMgSwzeB7p0EmIwmZM62Qh3akAn/view?usp=sharing', nrows=nrows)
+    data = pd.read_csv('https://drive.google.com/file/d/1-o3EvAMgSwzeB7p0EmIwmZM62Qh3akAn/view?usp=sharing')
     lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis='columns', inplace=True)
     data[date] = pd.to_datetime(data[date])
