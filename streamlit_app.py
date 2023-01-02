@@ -12,4 +12,4 @@ for uploaded_file in uploaded_files:
 
 # Can be used wherever a "file-like" object is accepted:
 dataframe = pd.read_csv(uploaded_file)
-st.write(dataframe)
+st.table(dataframe)
