@@ -11,7 +11,7 @@ st.title(" 📅 WEATHER FORECASTER 🌥️ ☔ ")
 DATE_COLUMN = 'date/time'
 
 @st.cache
-def load_data(nrows):
+def load_data():
     data = pd.read_csv('https://drive.google.com/file/d/1-o3EvAMgSwzeB7p0EmIwmZM62Qh3akAn/view?usp=sharing', nrows=nrows)
     lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis='columns', inplace=True)
@@ -19,7 +19,7 @@ def load_data(nrows):
     return data
 
 data_load_state = st.text('Loading data...')
-data = load_data(5)
+data = load_data()
 data_load_state.text("Done! (using st.cache)")
 
 if st.checkbox('Show raw data'):
