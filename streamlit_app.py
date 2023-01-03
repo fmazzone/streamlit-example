@@ -120,7 +120,7 @@ with col7:
 st.markdown(""" 
 <style>
 div.stButton > button:first-child {
-background-color: #4682B4;color:WhiteSmoke;font-size:20px;height:3em;width:60em;border-radius:10px 10px 10px 10px;
+background-color: #4682B4;color:WhiteSmoke;font-size:20px;height:3em;width:50em;border-radius:10px 10px 10px 10px;
 }
 .css-2trqyj:focus:not(:active) {
 border-color: #ffffff;
