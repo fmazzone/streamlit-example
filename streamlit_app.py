@@ -4,7 +4,6 @@ import numpy as np
 import datetime 
 import time 
 from streamlit_folium import folium_static
-import geemap.colormaps as cm
 import geemap.foliumap as geemap
 
 
