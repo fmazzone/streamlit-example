@@ -41,7 +41,7 @@ window_selection_c.markdown("## _Dati_") # add a title to the sidebar container
 sub_columns = window_selection_c.columns(2) #Split the container into two columns 
 
 #sub_columns[0].date_input("Data per la predizione",datetime.date(2018, 1, 1))
-keyword = sub_columns[0].text_input("Città per la predizione")
+#keyword = sub_columns[0].text_input("Città per la predizione")
 sub_columns[0].selectbox('Modello di previsione',('Random Forest', 'LSTM', 'Decision Tree'))
 
 col1, col2, col3,col4,col5,col6,col7, = st.columns(7)
