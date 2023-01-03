@@ -3,8 +3,6 @@ import pandas as pd
 import numpy as np
 import datetime 
 import time 
-from streamlit_folium import folium_static
-import geemap.foliumap as geemap
 
 
 st.set_page_config(page_title="Weather Forecast App",page_icon="🌡️",layout="wide", initial_sidebar_state="expanded")
