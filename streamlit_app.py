@@ -14,6 +14,7 @@ def add_bg_from_url():
          .stApp {{
              background-image: url("https://media.istockphoto.com/id/510656547/video/soft-moving-cloud-for-weather-report-background.jpg?s=640x640&k=20&c=xBW8VeBDgE5IPpwrprN45GOe7HYU_Q1Rh7Q7WZdjIZo=");
              #https://openweathermap.org/themes/openweathermap/assets/img/new-history-forecast-bulk.png
+             #https://miro.medium.com/max/680/1*KYrYFzjUUlKSZlgFDzEEDg.png
              background-attachment: fixed;
              background-size: cover
          }}
