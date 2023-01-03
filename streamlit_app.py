@@ -136,5 +136,6 @@ background-color: #0066cc;
 if st.button('_Predici_'):
     with st.spinner('Attendere...'):
       time.sleep(5)
-    st.success('Fatto!')
+    
+
  
