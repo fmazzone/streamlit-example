@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import datetime 
 import time 
-import geemap
+from streamlit_folium import folium_static
 import geemap.colormaps as cm
 import geemap.foliumap as geemap
 
