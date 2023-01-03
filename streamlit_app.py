@@ -42,7 +42,7 @@ sub_columns = window_selection_c.columns(2) #Split the container into two column
 
 #sub_columns[0].date_input("Data per la predizione",datetime.date(2018, 1, 1))
 keyword = sub_columns[0].text_input("Città per la predizione")
-sub_columns[0].option = st.selectbox('Modello di previsione',('Random Forest', 'LSTM', 'Decision Tree'))
+sub_columns[0].selectbox('Modello di previsione',('Random Forest', 'LSTM', 'Decision Tree'))
 
 #if keyword:
  #           locations = geemap.geocode(keyword)
