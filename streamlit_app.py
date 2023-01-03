@@ -10,7 +10,7 @@ st.title('_Weather Forecast_')
 df = pd.DataFrame({
    'Città':['Milano', 'Torino', 'Firenze', 'Bologna', 'Roma', 'Napoli', 'Palermo'],
     'lat':[45.464664, 45.116177,  43.769562, 44.498955, 41.902782, 40.853294, 38.116669],
-    'lon':[9.188540, 7.742615, 11.255814, 11.327591, 12.496366, 14.305573, 13.366667])
+    'lon':[9.188540, 7.742615, 11.255814, 11.327591, 12.496366, 14.305573, 13.366667]
 })
 
 # Adding code so we can have map default to the center of the data
