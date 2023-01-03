@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import datetime 
 import time 
+import folium
+import geemap
 import geemap.colormaps as cm
 import geemap.foliumap as geemap
 
