@@ -42,7 +42,7 @@ add_bg_from_url()
 #sub_columns[0].date_input("Data per la predizione",datetime.date(2018, 1, 1))
 #sub_columns[0].text_input("Città per la predizione")
 
-col1, col2, col3,col4,col5,col6,col7,col8, = st.columns(8)
+col1, col2, col3,col4,col5,col6,col7, = st.columns(7)
 
 with col1:
    st.subheader("_MILANO_")
