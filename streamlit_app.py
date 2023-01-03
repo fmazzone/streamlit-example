@@ -44,18 +44,6 @@ sub_columns = window_selection_c.columns(2) #Split the container into two column
 keyword = sub_columns[0].text_input("Città per la predizione")
 sub_columns[0].selectbox('Modello di previsione',('Random Forest', 'LSTM', 'Decision Tree'))
 
-#if keyword:
- #           locations = geemap.geocode(keyword)
-    #        if locations is not None and len(locations) > 0:
-      #          str_locations = [str(g)[1:-1] for g in locations]
-       #         location = st.selectbox("Select a location:", str_locations)
-        #        loc_index = str_locations.index(location)
-        #        selected_loc = locations[loc_index]
-       #         lat, lng = selected_loc.lat, selected_loc.lng
-        #        folium.Marker(location=[lat, lng], popup=location).add_to(m)
-          #      m.set_center(lng, lat, 12)
-          #      st.session_state["zoom_level"] = 12
-
 col1, col2, col3,col4,col5,col6,col7, = st.columns(7)
 
 with col1:
@@ -132,7 +120,7 @@ with col7:
 st.markdown(""" 
 <style>
 div.stButton > button:first-child {
-background-color: #4682B4;color:WhiteSmoke;font-size:20px;height:3em;width:52em;border-radius:10px 10px 10px 10px;
+background-color: #4682B4;color:WhiteSmoke;font-size:20px;height:3em;width:60em;border-radius:10px 10px 10px 10px;
 }
 .css-2trqyj:focus:not(:active) {
 border-color: #ffffff;
