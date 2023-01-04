@@ -36,19 +36,19 @@ add_bg_from_url()
 
 
   # ------ layout setting---------------------------
-'''window_selection_c = st.sidebar.container() # create an empty container in the sidebar
-window_selection_c.markdown("## _Dati_") # add a title to the sidebar container
-sub_columns = window_selection_c.columns(1) #Split the container into two columns 
+#window_selection_c = st.sidebar.container() # create an empty container in the sidebar
+#window_selection_c.markdown("## _Dati_") # add a title to the sidebar container
+#sub_columns = window_selection_c.columns(1) #Split the container into two columns 
 
-sub_columns[0].text_input('Seleziona temperatura °')
-sub_columns[0].text_input('Seleziona velocità vento km/h')
-sub_columns[0].text_input('Seleziona umidità %')
+#sub_columns[0].text_input('Seleziona temperatura °')
+#sub_columns[0].text_input('Seleziona velocità vento km/h')
+#sub_columns[0].text_input('Seleziona umidità %')
 
-if sub_columns[0].button("Avanzate"):
-    prec = sub_columns[0].text_input('Precipizazioni MM/d')
-    press = sub_columns[0].text_input('Pressione Pa')
+#if sub_columns[0].button("Avanzate"):
+#    prec = sub_columns[0].text_input('Precipizazioni MM/d')
+#    press = sub_columns[0].text_input('Pressione Pa')
   
-sub_columns[0].button('Inserisci')'''
+#sub_columns[0].button('Inserisci')
 
 col1, col2, col3,col4,col5,col6,col7, = st.columns(7)
 
