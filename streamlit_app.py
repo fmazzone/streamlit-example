@@ -4,6 +4,9 @@ import numpy as np
 import datetime 
 import time 
 
+
+st.set_page_config(page_title="Weather Forecast App",page_icon="🌡️",layout="wide", initial_sidebar_state="expanded")
+
 #st.markdown("""
 #<style>
 #div.stButton > button:first-child {
@@ -56,7 +59,6 @@ def add_bg_from_url():
 
 add_bg_from_url() 
 
-st.set_page_config(page_title="Weather Forecast App",page_icon="🌡️",layout="wide", initial_sidebar_state="expanded")
 st.title('_Weather Forecast_')
 
 df = pd.DataFrame({
