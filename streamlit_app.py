@@ -42,7 +42,9 @@ sub_columns = window_selection_c.columns(2) #Split the container into two column
 
 sub_columns[0].subheader('Informazioni')
 
-sub_columns[0].text_input('Temperatura')
+sub_columns[0].slider(
+    'Seleziona temperatura °',
+    -20, 45.0, (25.0, 75.0))
 sub_columns[0].text_input('vento')
 sub_columns[0].text_input('umidità')
 
