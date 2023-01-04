@@ -69,16 +69,15 @@ df = pd.DataFrame({
 
 st.map(df)
 
-age =           st.sidebar.number_input("Age in Years", 1, 150, 25, 1)
+# ------ layout setting---------------------------
+window_selection_c = st.sidebar.container() # create an empty container in the sidebar
+window_selection_c.markdown("## _Dati_") # add a title to the sidebar container
+sub_columns = window_selection_c.columns(1) #Split the container into two columns 
 
-  # ------ layout setting---------------------------
-#window_selection_c = st.sidebar.container() # create an empty container in the sidebar
-#window_selection_c.markdown("## _Dati_") # add a title to the sidebar container
-#sub_columns = window_selection_c.columns(1) #Split the container into two columns 
-
-#sub_columns[0].text_input('Seleziona temperatura °')
-#sub_columns[0].text_input('Seleziona velocità vento km/h')
-#sub_columns[0].text_input('Seleziona umidità %')
+città=sub_columns[0].('Seleziona Città')
+temperatura=sub_columns[0].number_input('Seleziona temperatura °', -10, 50, 0)
+vento=sub_columns[0].number_input('Seleziona velocità vento km/h', 1, 140, 0)
+umidità=sub_columns[0].number_input('Seleziona umidità %', 0, 100, 0)
 
 #if sub_columns[0].button("Avanzate"):
 #    prec = sub_columns[0].text_input('Precipizazioni MM/d')
@@ -131,14 +130,6 @@ with col7:
    st.subheader("_PALERMO_")
    st.image("https://www.filoteapasta.com/wp-content/uploads/2019/07/Cattedrale-Palermo.jpg")
    st.metric("Condizione", "stringa")
-
-
-    
-if st.button('_Predici_'):
-    with st.spinner('Attendere...'):
-      time.sleep(5)
-    
-
  
 '''@st.cache(allow_output_mutation=True)
 def load(scaler_path, model_path):
@@ -154,3 +145,18 @@ def inference(row, scaler, model, feat_cols):
         return "This is a healthy person!"
     else:
         return "This person has high chances of having diabetics!"'''
+ 
+row = ['città', 'temperatura', 'vento', 'umidità']
+ 
+if st.button('_Predici_'):
+   with st.spinner('Attendere...'): 
+   time.sleep(5)
+   
+   feat_cols = [????]
+
+    sc, model = load('models/scaler.joblib', 'models/model.joblib')
+    result = inference(row, sc, model, feat_cols)
+    
+    col7.metric('Condizione',result)
+ 
+
