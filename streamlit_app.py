@@ -38,7 +38,7 @@ add_bg_from_url()
   # ------ layout setting---------------------------
 window_selection_c = st.sidebar.container() # create an empty container in the sidebar
 window_selection_c.markdown("## _Dati_") # add a title to the sidebar container
-sub_columns = window_selection_c.columns(2) #Split the container into two columns 
+sub_columns = window_selection_c.columns(1) #Split the container into two columns 
 
 sub_columns[0].slider('Seleziona temperatura °',-20.0, 45.0, 10.0)
 sub_columns[0].text_input('vento')
