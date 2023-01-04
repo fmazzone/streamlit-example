@@ -48,9 +48,9 @@ sub_columns[0].text_input('umidità')
 
 sub_columns[0].subheader('Avanzate')
 
-sub_columns[0].text_input('Temperatura')
-sub_columns[0].text_input('vento')
-sub_columns[0].text_input('umidità')
+sub_columns[0].text_input('1')
+sub_columns[0].text_input('2')
+sub_columns[0].text_input('3')
 
    
 sub_columns[0].button('Inserisci')
