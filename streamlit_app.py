@@ -45,6 +45,11 @@ sub_columns = window_selection_c.columns(2) #Split the container into two column
 sub_columns[0].text_input('Temperatura')
 sub_columns[0].text_input('vento')
 sub_columns[0].text_input('umidità')
+
+with sub_columns[0].expander("Dati real time"):
+     sub_columns[0].text_input('vento')
+     sub_columns[0].text_input('umidità')
+   
 sub_columns[0].button('submit')
 
 col1, col2, col3,col4,col5,col6,col7, = st.columns(7)
