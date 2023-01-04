@@ -47,8 +47,8 @@ sub_columns[0].text_input('vento')
 sub_columns[0].text_input('umidità')
 
 with sub_columns[0].expander("Dati real time"):
-     sub_columns[0].text_input('vento')
-     sub_columns[0].text_input('umidità')
+   sub_columns[0].text_input('vento')
+   sub_columns[0].text_input('umidità')
    
 sub_columns[0].button('submit')
 
