@@ -46,7 +46,10 @@ sub_columns[0].text_input('Temperatura')
 sub_columns[0].text_input('vento')
 sub_columns[0].text_input('umidità')
 
-with sub_columns[0].expander('th'):
+with sub_columns[1].expander('th'):
+   sub_columns[0].text_input('v')
+   sub_columns[0].text_input('u')
+      
    
    
 sub_columns[0].button('submit')
