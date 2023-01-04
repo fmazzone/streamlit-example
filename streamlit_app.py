@@ -46,9 +46,9 @@ sub_columns[0].text_input('Temperatura')
 sub_columns[0].text_input('vento')
 sub_columns[0].text_input('umidità')
 
-with sub_columns[0].expander("ddd"):
-      sub_columns[0].text_input('152')
-      sub_columns[0].text_input('125')
+with sub_columns[1].expander("ddd"):
+   sub_columns[0].text_input('152')
+   sub_columns[0].text_input('125')
    
 sub_columns[0].button('submit')
 
