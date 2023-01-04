@@ -69,6 +69,7 @@ df = pd.DataFrame({
 
 st.map(df)
 
+age =           st.sidebar.number_input("Age in Years", 1, 150, 25, 1)
 
   # ------ layout setting---------------------------
 #window_selection_c = st.sidebar.container() # create an empty container in the sidebar
