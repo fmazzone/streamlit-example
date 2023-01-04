@@ -40,13 +40,13 @@ window_selection_c = st.sidebar.container() # create an empty container in the s
 window_selection_c.markdown("## _Dati_") # add a title to the sidebar container
 sub_columns = window_selection_c.columns(1) #Split the container into two columns 
 
-sub_columns[0].slider('Seleziona temperatura °',-20, 45, 10)
-sub_columns[0].slider('Seleziona velocità vento km/h',0, 410, 10)
-sub_columns[0].slider('Seleziona umidità %',0, 100, 10)
+sub_columns[0].slider('Seleziona temperatura °',-20, 45, 0)
+sub_columns[0].slider('Seleziona velocità vento km/h',0, 410, 0)
+sub_columns[0].slider('Seleziona umidità %',0, 100, 0)
 
 if sub_columns[0].button("Avanzate"):
-    sub_columns[0].slider('Seleziona precipizazioni MM/d',0, 2000, 10)
-    sub_columns[0].slider('Seleziona pressione Pa',800, 1100, 10)
+    sub_columns[0].slider('Seleziona precipizazioni MM/d',0, 2000, 0)
+    sub_columns[0].slider('Seleziona pressione Pa',800, 1100, 0)
   
 sub_columns[0].button('Inserisci')
 
