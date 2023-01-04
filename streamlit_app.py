@@ -36,7 +36,7 @@ add_bg_from_url()
 
 
   # ------ layout setting---------------------------
-window_selection_c = st.sidebar#.container() # create an empty container in the sidebar
+window_selection_c = st.sidebar.container() # create an empty container in the sidebar
 window_selection_c.markdown("## _Dati_") # add a title to the sidebar container
 sub_columns = window_selection_c.columns(2) #Split the container into two columns 
 
@@ -46,9 +46,9 @@ sub_columns[0].text_input('Temperatura')
 sub_columns[0].text_input('vento')
 sub_columns[0].text_input('umidità')
 
-sub_columns[0].expander('th'):
-   sub_columns[0].text_input('v')
-   sub_columns[0].text_input('u')
+with sub_columns[0].tabs('th'):
+   #sub_columns[0].text_input('v')
+   #sub_columns[0].text_input('u')
    
 sub_columns[0].button('Inserisci')
 
