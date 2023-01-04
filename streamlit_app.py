@@ -49,10 +49,8 @@ sub_columns[0].text_input('umidità')
 with sub_columns[1].expander('th'):
    sub_columns[0].text_input('v')
    sub_columns[0].text_input('u')
-      
    
-   
-sub_columns[0].button('submit')
+sub_columns[0].button('Sottomtti')
 
 col1, col2, col3,col4,col5,col6,col7, = st.columns(7)
 
@@ -130,7 +128,7 @@ with col7:
 st.markdown(""" 
 <style>
 div.stButton > button:first-child {
-background-color: #4682B4;color:WhiteSmoke;font-size:20px;height:3em;width:20em;border-radius:10px 10px 10px 10px;
+background-color: #4682B4;color:WhiteSmoke;font-size:20px;height:3em;width:10em;border-radius:10px 10px 10px 10px;
 }
 .css-2trqyj:focus:not(:active) {
 border-color: #ffffff;
