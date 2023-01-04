@@ -40,11 +40,7 @@ window_selection_c = st.sidebar.container() # create an empty container in the s
 window_selection_c.markdown("## _Dati_") # add a title to the sidebar container
 sub_columns = window_selection_c.columns(2) #Split the container into two columns 
 
-sub_columns[0].subheader('Informazioni')
-
-sub_columns[0].slider(
-    'Seleziona temperatura °',
-    -20, 45.0, (25.0, 75.0))
+sub_columns[0].slider('Seleziona temperatura °',0, 45.0, (25.0, 75.0))
 sub_columns[0].text_input('vento')
 sub_columns[0].text_input('umidità')
 
