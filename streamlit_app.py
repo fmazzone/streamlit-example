@@ -76,7 +76,7 @@ sub_columns = window_selection_c.columns(1) #Split the container into two column
 
 città = sub_columns[0].text_input('Seleziona Città')
 temperatura = sub_columns[0].number_input('Seleziona temperatura °', -10, 50, 0)
-vento = sub_columns[0].number_input('Seleziona velocità vento km/h', 1, 140, 0)
+vento = sub_columns[0].number_input('Seleziona velocità vento km/h', 0, 140, 0)
 umidità = sub_columns[0].number_input('Seleziona umidità %', 0, 100, 0)
 
 #if sub_columns[0].button("Avanzate"):
