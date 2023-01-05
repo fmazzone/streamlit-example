@@ -112,7 +112,7 @@ with col1:
 with col2:
    st.subheader("_TORINO_")
    st.image("https://media.istockphoto.com/id/940619078/photo/view-of-turin-city-centre-turin-italy.jpg?s=612x612&w=0&k=20&c=3vs4AeYD5yAQuig7P6lD02wsRBaKAQPXi_wGVdQQxro=")
-   st.metric("Condizione", conTor)
+   st.metric("Condizione", condTor)
 
     
 with col3:
