@@ -161,10 +161,10 @@ if st.button('_Predici_'):
     time.sleep(5)
    
    #feat_cols =['date','time', 'moon_illumination', 
-              'tempC', 'tempF', 'windspeedMiles', 'windspeedKmph', 'winddirDegree', 'weatherCode',
-              'weatherDesc', 'precipMM', 'precipInches', 'humidity', 'visibility', 'visibilityMiles', 
-              'pressure', 'pressureInches', 'cloudcover', 'HeatIndexC', 'HeatIndexF', 'DewPointC', 'DewPointF', 'WindChillC', 
-              'WindChillF', 'WindGustMiles', 'WindGustKmph', 'FeelsLikeC', 'FeelsLikeF', 'uvIndex']
+             # 'tempC', 'tempF', 'windspeedMiles', 'windspeedKmph', 'winddirDegree', 'weatherCode',
+            #  'weatherDesc', 'precipMM', 'precipInches', 'humidity', 'visibility', 'visibilityMiles', 
+             # 'pressure', 'pressureInches', 'cloudcover', 'HeatIndexC', 'HeatIndexF', 'DewPointC', 'DewPointF', 'WindChillC', 
+             # 'WindChillF', 'WindGustMiles', 'WindGustKmph', 'FeelsLikeC', 'FeelsLikeF', 'uvIndex']
 
    ##sc, model = load('models/scaler.joblib', 'models/model.joblib')
    ###result = inference(row, sc, model, feat_cols)
