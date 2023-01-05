@@ -150,7 +150,7 @@ row = ['città', 'temperatura', 'vento', 'umidità']
  
 if st.button('_Predici_'):
    with st.spinner('Attendere...'): 
-   time.sleep(5)
+   #time.sleep(5)
    
    feat_cols = [????]
 
