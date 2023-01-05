@@ -3,9 +3,14 @@ import pandas as pd
 import numpy as np
 import datetime 
 import time 
+import plotly.express as px
 
 
-st.set_page_config(page_title="Weather Forecast App",page_icon="🌡️",layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(
+ page_title="Weather Forecast App",
+ page_icon="🌡️",layout="wide", 
+ initial_sidebar_state="expanded"
+)
 
 #st.markdown("""
 #<style>
@@ -132,6 +137,8 @@ with col7:
    st.image("https://www.filoteapasta.com/wp-content/uploads/2019/07/Cattedrale-Palermo.jpg")
    st.metric("Condizione", "stringa")
  
+ ##________Pred
+ 
 '''@st.cache(allow_output_mutation=True)
 def load(scaler_path, model_path):
     sc = joblib.load(scaler_path)
@@ -153,7 +160,11 @@ if st.button('_Predici_'):
    with st.spinner('Attendere...'): 
     time.sleep(5)
    
-   #feat_cols = [????]
+   #feat_cols =['date','time', 'moon_illumination', 
+              'tempC', 'tempF', 'windspeedMiles', 'windspeedKmph', 'winddirDegree', 'weatherCode',
+              'weatherDesc', 'precipMM', 'precipInches', 'humidity', 'visibility', 'visibilityMiles', 
+              'pressure', 'pressureInches', 'cloudcover', 'HeatIndexC', 'HeatIndexF', 'DewPointC', 'DewPointF', 'WindChillC', 
+              'WindChillF', 'WindGustMiles', 'WindGustKmph', 'FeelsLikeC', 'FeelsLikeF', 'uvIndex']
 
    ##sc, model = load('models/scaler.joblib', 'models/model.joblib')
    ###result = inference(row, sc, model, feat_cols)
