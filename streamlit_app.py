@@ -76,8 +76,8 @@ st.map(df)
 # ------ layout setting---------------------------
 window_selection_c = st.sidebar.container() # create an empty container in the sidebar
 window_selection_c.markdown("## _Dati_") # add a title to the sidebar container
-window_selection_c.text("Compilare i dettagli"+ "\n" +"e fare clic sul pulsante Predici!")
-sub_columns = window_selection_c.columns(1) #Split the container into two columns 
+window_selection_c.text("Compilare i campi"+ "\n" +"e fare clic sul pulsante Predici."+ "\n" + "Puoi scegliere se compilare"+ "\n" + "tutti i campi o solo alcuni.")
+sub_columns = window_selection_c.columns(1)
 
 città = sub_columns[0].text_input('Seleziona Città')
 temperatura = sub_columns[0].number_input('Seleziona temperatura °', -10, 50, 0)
@@ -85,8 +85,10 @@ vento = sub_columns[0].number_input('Seleziona velocità vento km/h', 0, 140, 0)
 umidità = sub_columns[0].number_input('Seleziona umidità %', 0, 100, 0)
 
 #if sub_columns[0].button("Avanzate"):
-#    prec = sub_columns[0].text_input('Precipizazioni MM/d')
-#    press = sub_columns[0].text_input('Pressione Pa')
+precipitazioni = sub_columns[0].number_input('Seleziona precipirazioni mm', 0, 2000, 0)
+pressione = sub_columns[0].number_input('Seleziona pressione Pa', 0, 100, 0)
+visibilità = sub_columns[0].number_input('Seleziona visibilità km', 0.0, 10.0, 0.0)
+copertura = sub_columns[0].number_input('Seleziona copertura nuvolosa %', 0, 100, 0)
   
 #sub_columns[0].button('Inserisci')
 
