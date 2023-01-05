@@ -158,5 +158,3 @@ if st.button('_Predici_'):
   #  result = inference(row, sc, model, feat_cols)
     
    # col7.metric('Condizione',result)
- 
-
