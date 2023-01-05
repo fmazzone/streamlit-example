@@ -74,10 +74,10 @@ window_selection_c = st.sidebar.container() # create an empty container in the s
 window_selection_c.markdown("## _Dati_") # add a title to the sidebar container
 sub_columns = window_selection_c.columns(1) #Split the container into two columns 
 
-città=sub_columns[0].text_input('Seleziona Città')
-temperatura=sub_columns[0].number_input('Seleziona temperatura °', -10, 50, 0)
-vento=sub_columns[0].number_input('Seleziona velocità vento km/h', 1, 140, 0)
-umidità=sub_columns[0].number_input('Seleziona umidità %', 0, 100, 0)
+città = sub_columns[0].text_input('Seleziona Città')
+temperatura = sub_columns[0].number_input('Seleziona temperatura °', -10, 50, 0)
+vento = sub_columns[0].number_input('Seleziona velocità vento km/h', 1, 140, 0)
+umidità = sub_columns[0].number_input('Seleziona umidità %', 0, 100, 0)
 
 #if sub_columns[0].button("Avanzate"):
 #    prec = sub_columns[0].text_input('Precipizazioni MM/d')
