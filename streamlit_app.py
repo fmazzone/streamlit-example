@@ -150,11 +150,4 @@ row = ['città', 'temperatura', 'vento', 'umidità']
  
 if st.button('_Predici_'):
    with st.spinner('Attendere...'): 
-   #time.sleep(5)
    
-   #feat_cols = [????]
-
-   #sc, model = load('models/scaler.joblib', 'models/model.joblib')
-   #result = inference(row, sc, model, feat_cols)
-    
-   #col7.metric('Condizione',result)
