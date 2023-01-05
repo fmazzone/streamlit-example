@@ -176,10 +176,10 @@ if st.button('_Predici_'):
     if result==0:
         predetto='Rain'
     elif result==1:
-        predetto='Rain'.
+        predetto='Rain'
     elif result==2:
-        predetto='Rain'.
+        predetto='Rain'
     elif result==3:
-        predetto='Rain'.
+        predetto='Rain'
     else: 
-        predetto='Rain'.
+        predetto='Rain'
