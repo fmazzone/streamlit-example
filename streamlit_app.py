@@ -60,7 +60,7 @@ def add_bg_from_url():
 add_bg_from_url() 
 
 st.title('_Weather Forecast_')
-st.text('Città considerate per la predizione')
+st.subheader('Città considerate per la predizione')
 
 df = pd.DataFrame({
    'Città':['Milano', 'Torino', 'Firenze', 'Bologna', 'Roma', 'Napoli', 'Palermo'],
