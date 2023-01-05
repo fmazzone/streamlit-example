@@ -76,6 +76,7 @@ st.map(df)
 # ------ layout setting---------------------------
 window_selection_c = st.sidebar.container() # create an empty container in the sidebar
 window_selection_c.markdown("## _Dati_") # add a title to the sidebar container
+window_selection_c.text("Compilare i dettagli e fare clic sul pulsante Predici!")
 sub_columns = window_selection_c.columns(1) #Split the container into two columns 
 
 città = sub_columns[0].text_input('Seleziona Città')
