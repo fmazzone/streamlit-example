@@ -152,9 +152,9 @@ if st.button('_Predici_'):
    with st.spinner('Attendere...'): 
    #time.sleep(5)
    
-  #feat_cols = [????]
+   #feat_cols = [????]
 
-  #sc, model = load('models/scaler.joblib', 'models/model.joblib')
-  #result = inference(row, sc, model, feat_cols)
+   #sc, model = load('models/scaler.joblib', 'models/model.joblib')
+   #result = inference(row, sc, model, feat_cols)
     
-  #col7.metric('Condizione',result)
+   #col7.metric('Condizione',result)
