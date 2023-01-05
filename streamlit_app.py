@@ -3,8 +3,6 @@ import pandas as pd
 import numpy as np
 import datetime 
 import time 
-import plotly.express as px
-
 
 st.set_page_config(
  page_title="Weather Forecast App",
