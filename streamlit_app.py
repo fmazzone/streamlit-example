@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import sklearn
 import datetime 
 import time 
 
@@ -171,5 +172,14 @@ if st.button('_Predici_'):
 
    ##sc, model = load('models/scaler.joblib', 'models/model.joblib')
    ###result = inference(row, sc, model, feat_cols)
-    
-   ####col7.metric('Condizione',result)
+   
+    if result==0:
+        predetto='Rain'
+    elif result==1:
+        predetto='Rain'.
+    elif result==2:
+        predetto='Rain'.
+    elif result==3:
+        predetto='Rain'.
+    else: 
+        predetto='Rain'.
