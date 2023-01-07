@@ -41,11 +41,12 @@ def add_bg_from_url():
         f"""
          <style>
          .stApp {{
-             background-image: url("https://images.unsplash.com/photo-1541280910158-c4e14f9c94a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+             #background-image: url("https://images.unsplash.com/photo-1541280910158-c4e14f9c94a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
              #https://openweathermap.org/themes/openweathermap/assets/img/new-history-forecast-bulk.png
              #https://miro.medium.com/max/680/1*KYrYFzjUUlKSZlgFDzEEDg.png
              background-attachment: fixed;
-             background-size: cover
+             background-size: cover;
+             background-color: #1f3947
          }}
          </style>
          """,
