@@ -57,7 +57,7 @@ def add_bg_from_url():
 add_bg_from_url()
 
 title = '<p style="font-family:courier; color:#fcfcfc; font-size: 42px; font-style: italic">Weather Forecast</p>'
-st.markdown(new_title, unsafe_allow_html=True)
+st.markdown(title, unsafe_allow_html=True)
 #st.title(<*font color=‘red’>'_Weather Forecast_'</*font>, unsafe_allow_html=True)
 subtitle = '<p style="font-family:courier; color:#fcfcfc; font-size: 20px; font-style: classic">Città considerate per la predizione</p>'
 st.markdown(subtitle, unsafe_allow_html=True)
@@ -73,7 +73,8 @@ st.map(df)
 
 # ------ layout setting---------------------------
 window_selection_c = st.sidebar.container()  # create an empty container in the sidebar
-window_selection_c.markdown("## _Dati_")  # add a title to the sidebar container
+dati = '<p style="font-family:courier; color:#fcfcfc; font-size: 20px; font-style: classic">Dati</p>'
+window_selection_c.markdown(dati, unsafe_allow_html=True)  # add a title to the sidebar container
 window_selection_c.text(
     "Compilare i campi" + "\n" + "e fare clic sul pulsante Predici." + "\n" + "Puoi scegliere se compilare" + "\n" + "tutti i campi o solo alcuni.")
 sub_columns = window_selection_c.columns(1)
