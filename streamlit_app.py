@@ -46,7 +46,7 @@ def add_bg_from_url():
              #https://miro.medium.com/max/680/1*KYrYFzjUUlKSZlgFDzEEDg.png
              background-attachment: fixed;
              background-size: cover;
-             background-color: #1f3947
+             background-color: #0E1117
          }}
          </style>
          """,
