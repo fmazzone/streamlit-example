@@ -56,7 +56,7 @@ def add_bg_from_url():
 
 add_bg_from_url()
 
-st.title(':white[_Weather Forecast_]')
+st.title(<*font color=‘red’>'_Weather Forecast_'</*font>, unsafe_allow_html=True)
 st.subheader('Città considerate per la predizione')
 
 df = pd.DataFrame({
