@@ -4,7 +4,7 @@ import time
 #import joblib
 
 st.set_page_config(
-    page_title=":blue[Weather Forecast App]",
+    page_title="Weather Forecast App",
     page_icon="🌡️", layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -56,7 +56,7 @@ def add_bg_from_url():
 
 add_bg_from_url()
 
-st.title('_Weather Forecast_')
+st.title(':blue[_Weather Forecast_]')
 st.subheader('Città considerate per la predizione')
 
 df = pd.DataFrame({
