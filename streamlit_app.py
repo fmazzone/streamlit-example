@@ -73,8 +73,7 @@ st.map(df)
 
 # ------ layout setting---------------------------
 window_selection_c = st.sidebar.container()  # create an empty container in the sidebar
-dati = '<p style="font-family:courier; color:#fcfcfc; font-size: 20px; font-style: classic">Dati</p>'
-window_selection_c.markdown(dati, unsafe_allow_html=True)  # add a title to the sidebar container
+window_selection_c.markdown('##_Dati_)  # add a title to the sidebar container
 window_selection_c.text(
     "Compilare i campi" + "\n" + "e fare clic sul pulsante Predici." + "\n" + "Puoi scegliere se compilare" + "\n" + "tutti i campi o solo alcuni.")
 sub_columns = window_selection_c.columns(1)
