@@ -56,10 +56,12 @@ def add_bg_from_url():
 
 add_bg_from_url()
 
-new_title = '<p style="font-family:courier; color:#fcfcfc; font-size: 42px; font-style: italic">Weather Forecast</p>'
+title = '<p style="font-family:courier; color:#fcfcfc; font-size: 42px; font-style: italic">Weather Forecast</p>'
 st.markdown(new_title, unsafe_allow_html=True)
 #st.title(<*font color=‘red’>'_Weather Forecast_'</*font>, unsafe_allow_html=True)
-st.subheader('Città considerate per la predizione')
+subtitle = '<p style="font-family:courier; color:#fcfcfc; font-size: 20px; font-style: classic">Città considerate per la predizione</p>'
+st.markdown(subtitle, unsafe_allow_html=True)
+#st.subheader('Città considerate per la predizione')
 
 df = pd.DataFrame({
     'Città': ['Milano', 'Torino', 'Firenze', 'Bologna', 'Roma', 'Napoli', 'Palermo'],
