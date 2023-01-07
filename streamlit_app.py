@@ -110,36 +110,42 @@ with col1:
     #st.metric("Condizione", condMil)
 
 with col2:
-    st.subheader("_TORINO_")
+    torino = '<p style="font-family:courier; color:#fcfcfc; font-size: 20px; font-style: classic">TORINO</p>'
+    st.markdown(torino, unsafe_allow_html=True)
     st.image(
         "https://media.istockphoto.com/id/940619078/photo/view-of-turin-city-centre-turin-italy.jpg?s=612x612&w=0&k=20&c=3vs4AeYD5yAQuig7P6lD02wsRBaKAQPXi_wGVdQQxro=")
     #st.metric("Condizione", condTor)
 
 with col3:
-    st.subheader("_FIRENZE_")
+    firenze = '<p style="font-family:courier; color:#fcfcfc; font-size: 20px; font-style: classic">FIRENZE</p>'
+    st.markdown(firenze, unsafe_allow_html=True)
     st.image(
         "https://media.istockphoto.com/id/483876975/photo/panorama-of-florence-and-saint-mary.jpg?s=612x612&w=0&k=20&c=tK2fS2Vaoq6-r0kD1NOfz8IrgXCrP3bVjfTBUZv7z5I=")
     #st.metric("Condizione", condFir)
 
 with col4:
-    st.subheader("_BOLOGNA_")
+    bologna = '<p style="font-family:courier; color:#fcfcfc; font-size: 20px; font-style: classic">BOLOGNA</p>'
+    st.markdown(bologna, unsafe_allow_html=True)
     st.image("https://static2-viaggi.corriereobjects.it/wp-content/uploads/2020/01/bologna.jpg?v=415423")
     #st.metric("Condizione", condBol)
 
 with col5:
-    st.subheader("_ROMA_")
+    roma = '<p style="font-family:courier; color:#fcfcfc; font-size: 20px; font-style: classic">ROMA</p>'
+    st.markdown(roma, unsafe_allow_html=True)
     st.image(
         "https://media.istockphoto.com/id/539115110/photo/colosseum-in-rome-and-morning-sun-italy.jpg?s=612x612&w=0&k=20&c=9NtFxHI3P2IBWRY9t0NrfPZPR4iusHmVLbXg2Cjv9Fs=")
     #st.metric("Condizione", condRoma)
 
 with col6:
-    st.subheader("_NAPOLI_")
+    napoli = '<p style="font-family:courier; color:#fcfcfc; font-size: 20px; font-style: classic">NAPOLI</p>'
+    st.markdown(napoli, unsafe_allow_html=True)
     st.image(
         "https://media.istockphoto.com/id/1327485657/photo/naples-at-sunset-gulf-of-naples-italy.jpg?b=1&s=170667a&w=0&k=20&c=Bji5m-48zMeGQ8mwo4a9wof3rQnSJzaIYpU5OlnGVIs=")
     #st.metric("Condizione", condNap)
 
 with col7:
-    st.subheader("_PALERMO_")
+    palermo = '<p style="font-family:courier; color:#fcfcfc; font-size: 20px; font-style: classic">PALERMO</p>'
+    st.markdown(palermo, unsafe_allow_html=True)
     st.image("https://www.filoteapasta.com/wp-content/uploads/2019/07/Cattedrale-Palermo.jpg")
     #st.metric("Condizione", condPal)
 
