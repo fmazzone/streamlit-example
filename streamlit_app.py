@@ -41,7 +41,7 @@ def add_bg_from_url():
         f"""
          <style>
          .stApp {{
-             background-image: url("https://media.istockphoto.com/id/1129050990/vector/abstract-diagonal-lines-striped-black-and-gray-gradient-background-and-texture-for-your.jpg?s=612x612&w=0&k=20&c=6p1HGXtIEWXHFUB6-2YJijS8FYHsn3N18X6kewEF4z4=");
+             background-image: url("https://images.unsplash.com/photo-1541280910158-c4e14f9c94a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
              #https://openweathermap.org/themes/openweathermap/assets/img/new-history-forecast-bulk.png
              #https://miro.medium.com/max/680/1*KYrYFzjUUlKSZlgFDzEEDg.png
              background-attachment: fixed;
