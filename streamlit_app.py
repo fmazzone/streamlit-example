@@ -55,7 +55,9 @@ def add_bg_from_url():
 
 
 add_bg_from_url()
-st.title(f'<h1 style="color:#fcfcfc;font-size:24px;">{"_Weather Forecast_”"}</h1>', unsafe_allow_html=True)
+
+new_title = '<p style="font-family:sans-serif; color:#fcfcfc; font-size: 42px;">New image</p>'
+st.title(new_title, unsafe_allow_html=True)
 #st.title(<*font color=‘red’>'_Weather Forecast_'</*font>, unsafe_allow_html=True)
 st.subheader('Città considerate per la predizione')
 
