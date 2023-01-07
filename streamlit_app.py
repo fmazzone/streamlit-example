@@ -102,7 +102,9 @@ condNap = ''
 condPal = ''
 
 with col1:
-    st.subheader("_MILANO_")
+    milano = '<p style="font-family:courier; color:#fcfcfc; font-size: 20px; font-style: classic">MILANO</p>'
+    st.markdown(milano, unsafe_allow_html=True)
+    #st.subheader("_MILANO_")
     st.image(
         "https://media.istockphoto.com/id/494084426/photo/milano-spirit.jpg?s=612x612&w=0&k=20&c=oRg0sCqikaBWGXSIgnvNVVu2cpHty9MF0spdieqpYoM=")
     #st.metric("Condizione", condMil)
